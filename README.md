@@ -1,110 +1,83 @@
-<table align="center">
-<thead>
-<tr>
-<th colspan="7">📚 Frameworks & Libraries</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" alt="TensorFlow" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="65" height="65"/><br>
-</td>
-</tr>
-<tr>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://vitejs.dev/logo.svg" alt="Vite" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Apache Spark" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.svg" alt="FastAPI" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://img.shields.io/badge/Redshift-FF0000?logo=amazon-redshift&logoColor=white" alt="Redshift" height="40"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white" alt="Laravel" height="40"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://img.shields.io/badge/XML-FF6600?logo=w3c&logoColor=white" alt="XML" height="40"/><br>
-</td>
-</tr>
-<tr>
-<td align="center" width="96">
-<img src="https://img.shields.io/badge/KNIME-D9E30B?logo=knime&logoColor=black" alt="KNIME" height="40"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" alt="jQuery" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://img.shields.io/badge/BigQuery-4285F4?logo=google-bigquery&logoColor=white" alt="BigQuery" height="40"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://img.shields.io/badge/Apache_Kafka-231F20?logo=apache-kafka&logoColor=white" alt="Apache Kafka" height="40"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg" alt="Scala" width="65" height="65"/><br>
-</td>
-<td align="center" width="96">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" width="65" height="65"/><br>
-</td>
-</tr>
-</tbody>
-</table>
+# Strings First Assignments
 
-<table align="center">
-<thead>
-<tr>
-<th colspan="4">🛠️ Testing & Automation</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center" width="96">
-<a href="https://gradle.org/">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" alt="Gradle" width="65" height="65"/>
-</a><br>
-</td>
-<td align="center" width="96">
-<a href="https://yaml.org/">
-<img src="https://img.shields.io/badge/YAML-000000?logo=yaml&logoColor=white" alt="YAML" width="65" height="65"/>
-</a><br>
-</td>
-<td align="center" width="96">
-<a href="https://cucumber.io/">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cucumber/cucumber-plain.svg" alt="Cucumber" width="65" height="65"/>
-</a><br>
-</td>
-<td align="center" width="96">
-<a href="https://www.selenium.dev/">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Selenium" width="65" height="65"/>
-</a><br>
-</td>
-</tr>
-</tbody>
-</table>
+A Java project for string manipulation exercises. Contains solutions to problems involving DNA gene finding, substring search, and URL extraction from web content.
+
+## Overview
+
+This repository implements four main exercises focused on working with strings in Java:
+
+| Part | Description |
+|------|-------------|
+| **Part1** | Find simple genes in DNA strings (fixed codons ATG/TAA) |
+| **Part2** | Find genes with configurable start/stop codons (case-insensitive) |
+| **Part3** | String utilities: occurrence checking and substring extraction |
+| **Part4** | Extract YouTube URLs from a web page |
+
+## Project Structure
+
+```
+StringsFirstAssignments/
+├── Part1.java    # DNA gene finder (ATG/TAA)
+├── Part2.java    # Configurable gene finder
+├── Part3.java    # twoOccurrences & lastPart
+├── Part4.java    # YouTube URL extractor
+└── README.md
+```
+
+## Requirements
+
+- **Java** 8 or higher
+- **Part4 only**: Duke University Coursera library (`edu.duke.URLResource`) — required for reading web pages
+
+## Usage
+
+Each class can be run independently:
+
+```bash
+# Part 1: Find genes in DNA (ATG...TAA)
+javac Part1.java
+java Part1
+
+# Part 2: Find genes with custom codons (uppercase/lowercase)
+javac Part2.java
+java Part2
+
+# Part 3: String occurrence and substring methods
+javac Part3.java
+java Part3
+
+# Part 4: Extract YouTube links from a web page
+javac Part4.java
+java Part4
+```
+
+> **Note:** Part4 requires the Duke Coursera library in the classpath. If you don't have it, run only Part1, Part2, and Part3.
+
+## Part Details
+
+### Part 1 – Simple Gene Finder
+
+Finds a valid gene in a DNA string. A gene is valid when:
+- Starts with codon **ATG**
+- Ends with codon **TAA**
+- Length between start and stop (inclusive) is a multiple of 3
+
+### Part 2 – Configurable Gene Finder
+
+Extends Part1 with:
+- Custom start and stop codons as parameters
+- Case-insensitive matching (works with uppercase and lowercase DNA)
+- Original case preserved in the returned gene
+
+### Part 3 – String Utilities
+
+- **`twoOccurrences(stringa, stringb)`**: Returns `true` if `stringa` appears at least twice in `stringb`
+- **`lastPart(stringa, stringb)`**: Returns the substring of `stringb` after the first occurrence of `stringa`, or `stringb` if not found
+
+### Part 4 – YouTube URL Extractor
+
+Reads an HTML page and prints all URLs that point to `youtube.com`. Uses `URLResource` to fetch and parse the page word by word.
+
+## License
+
+Educational project — use as needed for learning purposes.
