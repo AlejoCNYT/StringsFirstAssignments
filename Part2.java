@@ -55,7 +55,7 @@ public class Part2
         String stopCodon = "TAA";
         
         // Test case 1: DNA with no "ATG"
-        String dna1 = "CCCGGGTAACCC";
+        String dna1 = "AAATGCCCTAACTAGATTAAGAAACC";
         System.out.println("DNA: " + dna1);
         System.out.println("Gene: " + findSimpleGene(dna1, startCodon, stopCodon));
         System.out.println();
