@@ -27,7 +27,7 @@ StringsFirstAssignments/
 ## Requirements
 
 - **Java** 8 or higher
-- **Part4 only**: Duke University Coursera library (`edu.duke.URLResource`) — required for reading web pages
+- **Part4 only**: Duke University Coursera library [edu.duke.URLResource](https://www.dukelearntoprogram.com/course2/) — required for reading web pages
 
 ## Usage
 
